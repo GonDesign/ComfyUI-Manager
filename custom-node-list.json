@@ -45891,5 +45891,18 @@
             "install_type": "git-clone",
             "description": "API plugin for Alibaba Cloud Wanx 2.1 Image Editing model. Supports 10 functions including stylization, inpainting, and outpainting."
         }
+        },
+        {
+            "author": "GonDesign",
+            "title": "ComfyUI-Haoran",
+            "id": "comfyui-haoran",
+            "reference": "https://github.com/GonDesign/ComfyUI-Haoran",
+            "files": ["https://github.com/GonDesign/ComfyUI-Haoran"],
+            "install_type": "git-clone",
+            "description": "ComfyUI advanced multimedia processing plugin package with 70 nodes, covering image editing, video compositing, audio processing, and AI API integration (Doubao, Gemini, Wanx, VolcEngine, Google Imagen, FunASR, etc.).",
+            "nodename_pattern": ["Haoran", "Aggregator", "ImageFillToMask", "PureColorDetector"],
+            "tags": ["image", "video", "audio", "ai", "multimodal", "gemini", "wanx", "funasr", "aggregator"],
+            "preemptions": []
+        }
     ]
 }
